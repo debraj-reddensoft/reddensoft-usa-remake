@@ -2469,12 +2469,12 @@ In the end, the future of business in 2025 hinges on the user experience. Make s
     },
   ];
 
-  // useEffect(() => {
-  //   const foundBlog = blogs.find((blog) => blog.link === slugname);
-  //   const filteredBlogs = blogs.filter((blog) => blog.id !== foundBlog.id);
-  //   setHasSlugItem(foundBlog || null);
-  //   setRelatedBlogs(filteredBlogs || null);
-  // }, []);
+  useEffect(() => {
+    const foundBlog = blogs.find((blog) => blog.link === slugname);
+    const filteredBlogs = blogs.filter((blog) => blog.id !== foundBlog.id);
+    setHasSlugItem(foundBlog || null);
+    setRelatedBlogs(filteredBlogs || null);
+  }, []);
 
   return (
     <>

@@ -67,16 +67,16 @@ export default function Blogs() {
         },
         {
             id: 5,
-            title: "E-Commerce Development in USA: How to Build a Scalable Online Store",
-            desc: "Discover how to build a scalable e-commerce store in USA with expert insights on development, strategy, and growth. Boost your online business today!",
+            title: "E-Commerce Development in Israel: How to Build a Scalable Online Store",
+            desc: "Discover how to build a scalable e-commerce store in Israel with expert insights on development, strategy, and growth. Boost your online business today!",
             date: "Feb 27, 2025",
             thumb: blog5,
-            link: "ecommerce-development-in-USA",
+            link: "ecommerce-development-in-israel",
         },
         {
             id: 6,
-            title: "How Startups in USA Can Benefit from Custom CRM Development",
-            desc: "Learn how custom CRM development empowers USAi startups with automation, data-driven insights, and better customer management for business success.",
+            title: "How Startups in Israel Can Benefit from Custom CRM Development",
+            desc: "Learn how custom CRM development empowers Israeli startups with automation, data-driven insights, and better customer management for business success.",
             date: "Mar 3, 2025",
             thumb: blog6,
             link: "how-startups-can-benefit-from-custom-crm-development",
@@ -116,7 +116,7 @@ export default function Blogs() {
         {
             id: 11,
             title: 'Top WordPress Plugins for Optimum Security and Performance of Your Website',
-            desc: "WordPress is one of the most popular content management systems of current days. The WordPress Development Company in USA uses it recurrently to create and maintain websites for their clients.",
+            desc: "WordPress is one of the most popular content management systems of current days. The WordPress Development Company in Israel uses it recurrently to create and maintain websites for their clients.",
             date: "May 29, 2025",
             thumb: blog11,
             link: "top-wordPress-plugins-for-optimum-security-and-performance-of-your-website",
@@ -132,7 +132,7 @@ export default function Blogs() {
         {
             id: 13,
             title: 'How Reddensoft’s FinTech Solutions Help Businesses Scale and Innovate',
-            desc: "In today’s fast-paced digital economy, financial technology (FinTech) has emerged as a critical driver of business growth and transformation. Companies across industries are increasingly turning to specialized FinTech partners to unlock new efficiencies, improve customer experiences, and stay ahead of the competition. Reddensoft, a global software company with a strong presence in USA and beyond, is leading this change by offering cutting-edge FinTech innovations that help businesses scale and innovate like never before.",
+            desc: "In today’s fast-paced digital economy, financial technology (FinTech) has emerged as a critical driver of business growth and transformation. Companies across industries are increasingly turning to specialized FinTech partners to unlock new efficiencies, improve customer experiences, and stay ahead of the competition. Reddensoft, a global software company with a strong presence in Israel and beyond, is leading this change by offering cutting-edge FinTech innovations that help businesses scale and innovate like never before.",
             date: "June 18, 2025",
             thumb: blog13,
             link: "how-reddensoft-fintech-solutions-help-businesses-scale-and-innovate",
@@ -218,9 +218,9 @@ export default function Blogs() {
 
     return(
         <>
-            <title>ReddenSoft USA Blog: Insights on IT & Web Development</title>
-            <meta name="title" content="ReddenSoft USA Blog: Insights on IT & Web Development" />
-            <meta name="description" content="Stay updated with ReddenSoft USA's blog for expert insights on IT solutions, web development, and digital strategies to boost your business." />
+            <title>ReddenSoft Israel Blog: Insights on IT & Web Development</title>
+            <meta name="title" content="ReddenSoft Israel Blog: Insights on IT & Web Development" />
+            <meta name="description" content="Stay updated with ReddenSoft Israel's blog for expert insights on IT solutions, web development, and digital strategies to boost your business." />
 
             <div className="banner_bg h-[250px] md:h-[300px] xl:h-[450px] flex flex-col items-center justify-center px-5 lg:px-0">
                 <div className="max-w-[700px] lg:max-w-[990px] xl:max-w-[1200px] 2xl:max-w-[1420px] w-full mx-auto text-white text-center relative z-2">
