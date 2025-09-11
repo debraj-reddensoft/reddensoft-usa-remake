@@ -155,32 +155,32 @@ export default function ContactForm({alignment}) {
                 <div className={`lg:max-w-xl flex flex-col items-start`}>
                     <h2 className="text-3xl xl:text-5xl 2xl:text-6xl leading-none font-black uppercase flex flex-wrap flex-row lg:flex-col" data-aos="fade-right">
                         {
-                            alignment ? <><span className="text-secondary">לִשְׂכּוֹר</span>מפתחי ChatGPT?</> : <><span className="text-secondary pr-1.5">Hire </span>ChatGPT Developers?</>
+                            alignment ? <><span className="text-secondary">Hire</span> ChatGPT Developers in USA?</> : <><span className="text-secondary pr-1.5">Hire </span>ChatGPT Developers in USA</>
                         }
                     </h2>
                     <h3 className={`text-base lg:text-lg xl:text-xl font-light mt-4 lg:mt-7 ${alignment ? 'ml-auto' : 'mr-auto'}`} data-aos="fade-right" data-aos-delay="100">
                         { 
-                            alignment ? "שכור מפתחי ChatGPT שמשתמשים בהתקדמות מתקדמת של AI ו-NLP כדי לבנות פתרונות מותאמים לעסק שלך. הצוות שלנו מתמחה בפיתוח צ'אטבוטים, תרגום שפות ועוד כדי לעזור לך להשיג את יעדי הבינה המלאכותית שלך." : "Hire ChatGPT developers who utilize cutting-edge AI and NLP advancements to build tailored solutions for your business. Our team specializes in chatbot development, language translation, and more to help you achieve your AI goals."
+                            alignment ? "Hire ChatGPT Developers in USA who leverage the latest advancements in AI and natural language processing to craft intelligent solutions for your business. Our team delivers expertise in chatbot development, speech recognition, and more—helping you reach your AI implementation goals." : "Hire ChatGPT Developers in USA who leverage the latest advancements in AI and natural language processing to craft intelligent solutions for your business. Our team delivers expertise in chatbot development, speech recognition, and more—helping you reach your AI implementation goals."
                         }
                     </h3>
                     <ul className={`lg:max-w-[650px] py-5 ${alignment ? 'pr-5' : 'pl-5'}`}>
-                        <li className="list-disc text-base xl:text-lg leading-6 font-normal py-1" data-aos="fade-right" data-aos-delay="100">{ alignment ? "פיתוח צ'טבוט" : "Chatbot Development" }</li>
-                        <li className="list-disc text-base xl:text-lg leading-6 font-normal py-1" data-aos="fade-right" data-aos-delay="100">{ alignment ? "פתרונות תרגום לשפות" : "Language Translation Solutions" }</li>
-                        <li className="list-disc text-base xl:text-lg leading-6 font-normal py-1" data-aos="fade-right" data-aos-delay="100">{ alignment ? "שילוב זיהוי דיבור" : "Speech Recognition Integration" }</li>
-                        <li className="list-disc text-base xl:text-lg leading-6 font-normal py-1" data-aos="fade-right" data-aos-delay="100">{ alignment ? "יישומי AI מותאמים אישית" : "Custom AI Applications" }</li>
+                        <li className="list-disc text-base xl:text-lg leading-6 font-normal py-1" data-aos="fade-right" data-aos-delay="100">{ alignment ? "AI Chatbot Development" : "AI Chatbot Development" }</li>
+                        <li className="list-disc text-base xl:text-lg leading-6 font-normal py-1" data-aos="fade-right" data-aos-delay="100">{ alignment ? "Language Translation Tools" : "Language Translation Tools" }</li>
+                        <li className="list-disc text-base xl:text-lg leading-6 font-normal py-1" data-aos="fade-right" data-aos-delay="100">{ alignment ? "Speech-to-Text Integration" : "Speech-to-Text Integration" }</li>
+                        <li className="list-disc text-base xl:text-lg leading-6 font-normal py-1" data-aos="fade-right" data-aos-delay="100">{ alignment ? "Tailored AI Solutions" : "Tailored AI Solutions" }</li>
                     </ul>
                 </div>
             </div>
             <div className={`relative w-full lg:w-1/2 flex flex-col bg-gray-200 rounded-xl lg:items-end overflow-hidden ${alignment ? 'lg:mr-auto' : 'lg:ml-auto'}`}>
                 <form className="w-full relative flex flex-wrap px-5 py-7 sm:px-8 sm:py-12 z-1" onSubmit={formik.handleSubmit}>
                     {   alignment
-                        ? <h2 className="no_shadow text-3xl 2xl:text-4xl leading-none font-black px-2 pb-5">קבל ייעוץ <span className="text-secondary">חינם</span> של מומחה</h2>
+                        ? <h2 className="no_shadow text-3xl 2xl:text-4xl leading-none font-black px-2 pb-5">Get <span className="text-secondary">Free</span> Expert Consultation</h2>
                         : <h2 className="no_shadow text-3xl 2xl:text-4xl leading-none font-black px-2 pb-5">Get <span className="text-secondary">Free</span> Expert Consultation</h2>
                     }
                     <div className="w-full xl:w-1/2 p-2" data-aos="fade-left" data-aos-delay="100">
-                        <input type="text" name="name" placeholder={alignment ? "שם מלא*" : "Full Name*"} className={`light bg-white rounded h-12 2xl:h-14 w-full px-7 placeholder:text-black focus:outline-none ${alignment ? 'text-right' : 'text-left'}`} onChange={formik.handleChange}
+                        <input type="text" name="name" placeholder={alignment ? "Full Name*" : "Full Name*"} className={`light bg-white rounded h-12 2xl:h-14 w-full px-7 placeholder:text-black focus:outline-none ${alignment ? 'text-LEFT' : 'text-left'}`} onChange={formik.handleChange}
                             value={removeExtraSpace(formik.values.name)} onBlur={formik.handleBlur} />
-                        {formik.touched.name && formik.errors.name ? <div className={`text-sm text-[#ff393c] px-4 py-1.5 rounded mt-2 max-w-72 ${alignment ? 'ml-auto text-right' : 'mr-auto text-left'}`}>{formik.errors.name}</div> : null}
+                        {formik.touched.name && formik.errors.name ? <div className={`text-sm text-[#ff393c] px-4 py-1.5 rounded mt-2 max-w-72 ${alignment ? 'mr-auto text-left' : 'mr-auto text-left'}`}>{formik.errors.name}</div> : null}
                     </div>
 
                     <div className="w-full xl:w-1/2 p-2" data-aos="fade-left" data-aos-delay="200">

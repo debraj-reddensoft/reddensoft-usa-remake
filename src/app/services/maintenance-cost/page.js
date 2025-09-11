@@ -82,41 +82,41 @@ export default function MaintenanceCost() {
 
   const accordions = [
     {
-      title: "What makes your UI/UX design process different?",
-      content: "Our process is deeply rooted in user research and collaborative design, ensuring that we create solutions that are both visually appealing and highly functional.",
+      title: "How often should my website be maintained?",
+      content: "For optimal performance, we recommend monthly maintenance checks, including security updates, backups, and content optimization.",
     },
     {
-      title: "Can you help improve an existing product's design?",
-      content: "Absolutely! We specialize in redesigns and enhancements that optimize user experience and align with current market trends.",
+      title: "Will maintenance affect my website’s live performance?",
+      content: "No, we perform updates during off-peak hours or in staging environments to ensure no disruptions to your live site.",
     },
     {
-      title: "How involved will I be in the design process?",
-      content: "We value your input and keep you involved through regular updates and feedback loops to make sure your vision is reflected in the final design.",
+      title: "Can I request content changes as part of the maintenance package?",
+      content: "Yes, most of our packages include limited content updates, such as adding blog posts, updating images, or editing text.",
     },
     {
       title: "What kind of user testing do you conduct?",
       content: "We conduct a range of user tests, from remote usability studies to in-person focus groups, to gather valuable feedback for refining our designs.",
     },
     {
-      title: "Will I receive a final design that's ready for development?",
-      content: "Yes, we provide fully detailed design files, including specifications and assets, making it easy for your development team to bring the design to life.",
+      title: "Do you offer emergency support for critical issues?",
+      content: "Absolutely. We offer emergency troubleshooting and support for urgent issues, depending on your maintenance plan.",
     },
     {
-      title: "Do you offer post-launch support?",
-      content: "Yes, we provide post-launch services to make adjustments, implement updates, and ensure the design continues to meet user needs.",
+      title: "Can you maintain a website built by another developer?",
+      content: "Yes. We perform an initial assessment and then offer maintenance services for websites developed by third parties, provided they meet certain technical standards.",
     },
   ];
 
   return(
     <>
-      <title>Website Maintenance Cost & Services | Affordable Plans</title>
+      <title>Website maintenance services USA I Budget-friendly solutions </title>
       <meta name="title" content="Website Maintenance Cost & Services | Affordable Plans" />
       <meta name="description" content="Looking for reliable website maintenance services? Check out our website maintenance cost details for secure and hassle-free site management." />
 
       <div className="banner_bg h-[250px] md:h-[300px] xl:h-[450px] flex flex-col items-center justify-center px-5 lg:px-0">
           <div className="max-w-[700px] lg:max-w-[990px] xl:max-w-[1200px] 2xl:max-w-[1420px] w-full mx-auto text-white text-center relative z-2">
               <div className="text-2xl md:text-4xl lg:text-5xl font-black 2xl:leading-[60px]">Website Maintenance Cost</div>
-              <div className="max-w-[700px] xl:max-w-[800px] mx-auto text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 2xl:leading-9 text-white font-light mt-2 lg:mt-3">Join Us to Keep Your Website Running <span className="text-[#FFDD1A] font-bold">Smoothly and Securely</span>.</div>
+              <div className="max-w-[700px] xl:max-w-[800px] mx-auto text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl 2xl:leading-9 text-white font-light mt-2 lg:mt-3">Connect Us for a Secure and Smoothly Running Website .</div>
           </div>
           <Image className="absolute left-0 top-0 h-full w-full object-cover z-1" src={bannerBG} alt="Hero banner" priority width="auto" height="auto"/>
           <Starfield
@@ -131,14 +131,14 @@ export default function MaintenanceCost() {
         <div className="max-w-[700px] lg:max-w-[990px] xl:max-w-[1420px] mx-auto px-5 2xl:px-0">
           <div className="flex flex-wrap -mx-5">
             <div className="order-1 lg:order-none w-full lg:w-2/4 h-full flex flex-col justify-center px-5">
-                <h2 className="lg:max-w-[650px] text-xl xl:text-5xl 2xl:text-[50px] font-black" data-aos="fade-right" data-aos-delay="100">What is <span className="text-secondary">Website Maintenance </span>and why do you need it?</h2>
-                <h3 className="lg:max-w-[650px] text-sm xl:text-base font-normal pt-3.5" data-aos="fade-right" data-aos-delay="200">Website maintenance involves regular updates, security checks, and performance optimizations to keep your website functioning smoothly, secure, and effective. It ensures that your site is always up-to-date with the latest technologies and offers a positive user experience.</h3>
+                <h2 className="lg:max-w-[650px] text-xl xl:text-5xl 2xl:text-[50px] font-black" data-aos="fade-right" data-aos-delay="100">What is <span className="text-secondary">Website Maintenance </span>and why is it important?</h2>
+                <h3 className="lg:max-w-[650px] text-sm xl:text-base font-normal pt-3.5" data-aos="fade-right" data-aos-delay="200">Website maintenance refers to the ongoing process of updating, optimizing, and securing your website to ensure peak performance, safety, and reliability. It's essential for keeping your site current with technological changes and delivering a seamless user experience.</h3>
                 <ul className="lg:max-w-[650px] py-5 pl-5">
-                    <li className="list-disc text-sm xl:text-base leading-6 font-normal py-2" data-aos="fade-right" data-aos-delay="200"><span className="text-secondary font-bold">Ensure Website Security: </span>Regularly updating software, plugins, and security certificates protects against threats like hacking, malware, and data breaches.</li>
-                    <li className="list-disc text-sm xl:text-base leading-6 font-normal py-2" data-aos="fade-right" data-aos-delay="200"><span className="text-secondary font-bold">Improve Website Performance: </span>Performance checks, like optimizing images and fixing broken links, ensure fast load times and a smooth browsing experience.</li>
-                    <li className="list-disc text-sm xl:text-base leading-6 font-normal py-2" data-aos="fade-right" data-aos-delay="200"><span className="text-secondary font-bold">Boost SEO Rankings: </span>Consistently updating content and improving technical features helps optimize your site for search engines, improving visibility and performance.</li>
-                    {/* <li className="list-disc text-sm xl:text-base leading-6 font-normal py-2" data-aos="fade-right" data-aos-delay="200"><span className="text-secondary font-bold">Adapt to Changing Trends and Technologies: </span>Regular maintenance ensures your site remains compatible with evolving design trends, devices, and browser updates.</li>
-                    <li className="list-disc text-sm xl:text-base leading-6 font-normal py-2" data-aos="fade-right" data-aos-delay="200"><span className="text-secondary font-bold">Fix Bugs and Troubleshoot Issues: </span>Routine checks help identify and fix bugs, ensuring seamless functionality and preventing disruptions for users.</li> */}
+                    <li className="list-disc text-sm xl:text-base leading-6 font-normal py-2" data-aos="fade-right" data-aos-delay="200"><span className="text-secondary font-bold">Maintain Website Security: </span>Regular updates to core systems, plugins, and SSL certificates help guard against cyber threats like hacking, malware, and data breaches.</li>
+                    <li className="list-disc text-sm xl:text-base leading-6 font-normal py-2" data-aos="fade-right" data-aos-delay="200"><span className="text-secondary font-bold">Enhance Site Performance: </span>Routine performance checks, such as image optimization and link repair, contribute to faster load times and a better overall browsing experience.</li>
+                    <li className="list-disc text-sm xl:text-base leading-6 font-normal py-2" data-aos="fade-right" data-aos-delay="200"><span className="text-secondary font-bold">Improve SEO Performance: </span>Consistently updated content and fine-tuned technical elements support stronger search engine rankings and improved online visibility.</li>
+                    <li className="list-disc text-sm xl:text-base leading-6 font-normal py-2" data-aos="fade-right" data-aos-delay="200"><span className="text-secondary font-bold">Stay Ahead of Technology: </span>Regular maintenance ensures your site remains compatible with modern devices, browser updates, and the latest design standards.</li>
+                    <li className="list-disc text-sm xl:text-base leading-6 font-normal py-2" data-aos="fade-right" data-aos-delay="200"><span className="text-secondary font-bold">Resolve Technical Issues: </span>Scheduled checkups help detect and fix bugs or broken features, preventing user frustrations and maintaining functionality.</li>
                 </ul>
             </div>
             <div className="relative w-full lg:w-2/4 mb-8 lg:mb-0 h-full flex flex-col justify-center px-5">
@@ -147,6 +147,7 @@ export default function MaintenanceCost() {
                 </div>
             </div>
           </div>
+
           <div className="flex flex-wrap -mx-5 mt-28">
             <div className="relative w-full lg:w-2/4 mb-8 lg:mb-0 h-full flex flex-col justify-center px-5">
                 <div className="relative z-1">
@@ -154,7 +155,8 @@ export default function MaintenanceCost() {
                 </div>
             </div>
             <div className="order-1 lg:order-none w-full lg:w-2/4 h-full flex flex-col justify-center px-5 xl:pl-10 xl:pr-5">
-                <h2 className="lg:max-w-[650px] text-xl xl:text-5xl 2xl:text-[50px] font-black" data-aos="fade-right" data-aos-delay="100">Basic Website <span className="text-secondary">Maintenance Cost </span>Features:</h2>
+                <h2 className="lg:max-w-[650px] text-xl xl:text-5xl 2xl:text-[50px] font-black" data-aos="fade-right" data-aos-delay="100">Basic Website <span className="text-secondary">Maintenance Cost </span></h2>
+                <h3 className="lg:max-w-[650px] text-base lg:text-lg xl:text-xl font-normal pt-3.5">Your website’s performance shouldn't be compromised. Choose from flexible packages that keep your online presence secure, optimized, and user-friendly.</h3>
                 <ul className="lg:max-w-[650px] py-5 flex flex-wrap">
                   {
                     features.map((feature, f) => (
@@ -168,10 +170,12 @@ export default function MaintenanceCost() {
                 </ul>
             </div>
           </div>
+
+
           <div className="flex flex-wrap -mx-5 mt-24">
             <div className="order-1 lg:order-none w-full lg:w-2/4 h-full flex flex-col justify-center px-5">
-                <h2 className="lg:max-w-[650px] text-xl xl:text-5xl 2xl:text-[50px] font-black" data-aos="fade-right" data-aos-delay="100">Website Maintenance <span className="text-secondary">Price </span>List</h2>
-                <h3 className="lg:max-w-[650px] text-base lg:text-lg xl:text-xl font-normal pt-3.5" data-aos="fade-right" data-aos-delay="300">The table shows the price of website maintenance with us. Promotional websites enjoy flexibility in storage, while sales websites include extended support and private storage.</h3>
+                <h2 className="lg:max-w-[650px] text-xl xl:text-5xl 2xl:text-[50px] font-black" data-aos="fade-right" data-aos-delay="100">Website Maintenance <span className="text-secondary">Pricing </span></h2>
+                <h3 className="lg:max-w-[650px] text-base lg:text-lg xl:text-xl font-normal pt-3.5" data-aos="fade-right" data-aos-delay="300">Explore our pricing options tailored for different website types. Promotional websites enjoy flexible hosting capacity, while e-commerce and business websites receive expanded support and private storage options.</h3>
                 <table className="border-collapse border border-slate-400 text-left mt-8">
                   <thead className="bg-slate-100 text-base font-normal">
                     <tr>
@@ -204,7 +208,7 @@ export default function MaintenanceCost() {
         <div className="bg_element pt-24">
           <div className="max-w-[700px] lg:max-w-[990px] xl:max-w-[1420px] mx-auto px-5 2xl:px-0">
             <h2 className="text-3xl xl:text-4xl 2xl:text-5xl leading-tight font-black text-center" data-aos="zoom-in-up">OUR BUNDLES</h2>
-            <h3 className="max-w-3xl mx-auto text-lg xl:text-xl 2xl:text-2xl font-normal text-center pt-3.5" data-aos="zoom-in">Get more for less with our bundles. They combine basic maintenance and selected power-ups at a special website <span className="text-secondary">maintenance cost</span>.</h3>
+            <h3 className="max-w-3xl mx-auto text-lg xl:text-xl 2xl:text-2xl font-normal text-center pt-3.5" data-aos="zoom-in">Maximize value with our bundled website maintenance services. Our bundles include essential maintenance along with bonus services at a discounted website maintenance cost.</h3>
             <ul className="flex flex-wrap justify-center -mx-4 mt-10">
               <li className="w-full sm:w-1/2 lg:w-1/3 p-4">
                 <div className="relative bg-white shadow-med px-8 lg:px-5 2xl:px-7 py-8 xl:py-10 rounded-lg overflow-hidden">
@@ -299,6 +303,7 @@ export default function MaintenanceCost() {
           </div>
         </div>
       </div>
+      
       <div className="pb-8 lg:pb-10 border-b border-[#dadada]">
         <div className="max-w-[990px] xl:max-w-[1200px] 2xl:max-w-[1420px] w-full mx-auto">
           <BrandsSlider />
@@ -306,8 +311,8 @@ export default function MaintenanceCost() {
       </div>
       <div className="banner_bg py-16 xl:py-24">
         <div className="max-w-[700px] lg:max-w-[990px] xl:max-w-[1420px] mx-auto relative z-1 px-5 2xl:px-0">
-          <h3 className="text-white text-[25px] md:text-[40px] md:leading-[50px] leading-[33px] font-bold max-w-full md:max-w-[900px] mx-auto text-center">How The Onboarding Proccess Works?</h3>
-          <p className="max-w-4xl mx-auto text-lg xl:text-xl 2xl:text-2xl font-light text-white text-center pt-5" data-aos="fade-right" data-aos-delay="200">We begin with a conversation to understand your needs and offer our personal inputs. We discuss project scope, expectations, costs, payment options, timeline and upon agreement, we kick off.</p>
+          <h3 className="text-white text-[25px] md:text-[40px] md:leading-[50px] leading-[33px] font-bold max-w-full md:max-w-[900px] mx-auto text-center">How Our Onboarding Process Works</h3>
+          <p className="max-w-4xl mx-auto text-lg xl:text-xl 2xl:text-2xl font-light text-white text-center pt-5" data-aos="fade-right" data-aos-delay="200">We start with a discovery call to understand your needs. From there, we define the project scope, timeline, deliverables, and payment plan. Once we agree on everything, our team gets to work—delivering reliable maintenance from day one.</p>
           <div className="flex justify-center mt-10">
             <GlobalButton title="Let's Talk" link="/contact-form"/>
           </div>
@@ -323,7 +328,7 @@ export default function MaintenanceCost() {
       <div className="bg_element pt-20 2xl:pt-24 pb-10 2xl:pb-16 overflow-hidden">
         <div className="max-w-[700px] lg:max-w-[990px] xl:max-w-[1200px] 2xl:max-w-[1420px] w-full mx-auto">
           <h2 className="text-5xl xl:text-6xl 2xl:text-[80px] leading-tight font-black text-center" data-aos="zoom-in-up">OUR SERVICES</h2>
-          <h3 className="text-lg xl:text-xl 2xl:text-2xl font-semibold text-center pt-3.5" data-aos="zoom-in">We're a team of Originative About <span className="text-secondary">Unique Ideas</span>.</h3>
+          <h3 className="text-lg xl:text-xl 2xl:text-2xl font-semibold text-center pt-3.5" data-aos="zoom-in">At Reddensoft USA, we’re a passionate team that brings creative thinking and technical excellence together to deliver top-tier website maintenance and digital solutions.</h3>
           <div className="max-w-[700px] lg:max-w-[990px] xl:max-w-full mx-auto">
             <ul className="flex flex-wrap my-16 2xl:my-20 -mx-4 px-5 lg:px-0">
               { solutions.map((solution, s) => (
